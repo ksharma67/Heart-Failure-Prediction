@@ -5,6 +5,8 @@ This problem is a typical Classification Machine Learning task. Building various
 * Decision Tree (DT)
 * Random Forest (RF)
 * XGBoost (XGB)
+* Light GBM
+* Support Vector Machines with RBF kernel
 
 1) Performing Explanatory Data Analysis (EDA) / indicating how features correlate among themselves, with emphasis to the target/label one.
 
