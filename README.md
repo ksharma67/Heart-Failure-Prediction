@@ -1,12 +1,13 @@
 # Heart-Failure-Prediction
 
 This problem is a typical Classification Machine Learning task. Building various classifiers by using the following Machine Learning models:
-* Logistic Regression (LR)
+
+* Support Vector Machines with RBF kernel
 * Decision Tree (DT)
 * Random Forest (RF)
 * XGBoost (XGB)
 * Light GBM
-* Support Vector Machines with RBF kernel
+* Logistic Regression (LR)
 
 1) Performing Explanatory Data Analysis (EDA) / indicating how features correlate among themselves, with emphasis to the target/label one.
 
