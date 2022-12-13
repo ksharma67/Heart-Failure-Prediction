@@ -11,7 +11,7 @@ This problem is a typical Classification Machine Learning task. Building various
 
 1) Performing Explanatory Data Analysis (EDA) / indicating how features correlate among themselves, with emphasis to the target/label one.
 
-2) Applying Machine Learning Modeling on the dataset using all the above 4 algorithms. Tuning (hyper-parameter tuning) each model by calling the GridSearchCV method. Indicating which combination of Hyperparameters produces the best result.
+2) Applying Machine Learning Modeling on the dataset using all the above 6 algorithms. Tuning (hyper-parameter tuning) each model by calling the GridSearchCV method. Indicating which combination of Hyperparameters produces the best result.
 Note: Use accuracy and AUC-ROC metrics when evaluating your models.
 
 3) Performing Machine Learning Interpretability/Explanability tasks as follows:
@@ -37,9 +37,10 @@ Create the feature importance plot by calling SHAP’s ‘summary_plot’ functi
 4) Predicting observations, one for positive and one for negative label, by using all four (4) models and indicate which one gives the better prediction.
 Providing output for showing the accuracy of each model as follows:
 False/True label: 0/1 (or 0/1 depending how you define labels)
-* LR: [prob_T prob_F]
+* SVM: [prob_T prob_F]
 * DT: [prob_T prob_F]
 * RF: [prob_T prob_F]
 * XGB: [prob_T prob_F]
+* LR: [prob_T prob_F]
 
 The above calculations are derived by calling the predict_proba method. Note: predict_proba(X): Predict class probabilities for X.
