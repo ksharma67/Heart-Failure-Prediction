@@ -38,4 +38,5 @@ False/True label: 0/1 (or 0/1 depending how you define labels)
 * DT: [prob_T prob_F]
 * RF: [prob_T prob_F]
 * XGB: [prob_T prob_F]
+
 The above calculations are derived by calling the predict_proba method. Note: predict_proba(X): Predict class probabilities for X.
